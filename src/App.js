@@ -6,7 +6,6 @@ import Footer from "./Components/Footer";
 import Blogs from "./Components/Blogs";
 // import Projects from "./Components/Projects";
 // import Data from "./ProjectData.js";
-import { ImOpt } from "react-icons/im";
 import FullProjectPage from "./Components/FullProjectPage";
 import {
   BrowserRouter,

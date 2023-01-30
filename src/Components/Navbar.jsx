@@ -1,7 +1,7 @@
 import React from "react";
 import { IoIosMoon } from "react-icons/io";
 import { ImSun } from "react-icons/im";
-import {NavLink, Link} from "react-router-dom";  
+import {NavLink, Link} from "react-router-dom";      // navlink is used to highlight the active page, it adds actice class to the button and you can use that class in css to style that active page button.
 import "./Styles.css";
 // import {TiAdjustBrightness} from 'react-icons/ti';
 
@@ -41,14 +41,9 @@ export default function Navbar(props) {
               Blogs
             </NavLink>
           </li>
-          {/* <li>
-            <Link
-              className=" font-light dark:hover:text-slate-50  hover:text-gray-900 hover:underline-offset-8 hover:underline decoration-[#FCB424]"
-              to="/credits"
-            >
-              Credits
-            </Link>
-          </li> */}
+          
+
+          {/* dark mode button  */}
           <li
             onClick={() => props.setDarkmode(!props.darkmode)}
             className="font-light hover:font-semibold dark:text-slate-300  hover:text-gray-800  dark:hover:text-yellow-300"
