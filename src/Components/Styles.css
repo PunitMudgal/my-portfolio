@@ -16,3 +16,9 @@
 		background-size: 100% 4px;
 		background-position: 0 100%
 	}
+
+	.active{
+		text-decoration: underline;
+		text-decoration-color: #FCB424;
+		text-underline-offset: 8px;
+	}

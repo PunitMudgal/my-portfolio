@@ -1,7 +1,8 @@
 import React from "react";
 import { IoIosMoon } from "react-icons/io";
 import { ImSun } from "react-icons/im";
-import {Link} from "react-router-dom";  
+import {NavLink, Link} from "react-router-dom";  
+import "./Styles.css";
 // import {TiAdjustBrightness} from 'react-icons/ti';
 
 export default function Navbar(props) {
@@ -17,28 +18,28 @@ export default function Navbar(props) {
         </Link>
         <ul className="flex items-center gap-3 dark:text-cyan-300 md:gap-10 lg:gap-20 text-slate-700 md:text-lg md:tracking-wider">
           <li>
-            <Link
+            <NavLink
               className="font-light dark:hover:text-slate-50  hover:text-gray-900  hover:underline-offset-8 hover:underline decoration-[#FCB424]"
               to="/"
             >
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link
+            <NavLink
               className="font-light dark:hover:text-slate-50  hover:text-gray-900 hover:underline-offset-8 hover:underline decoration-[#FCB424]"
               to="/project"
             >
               Projects
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link
+            <NavLink
               className=" font-light dark:hover:text-slate-50  hover:text-gray-900 hover:underline-offset-8 hover:underline decoration-[#FCB424]"
               to="/blog"
             >
               Blogs
-            </Link>
+            </NavLink>
           </li>
           {/* <li>
             <Link
