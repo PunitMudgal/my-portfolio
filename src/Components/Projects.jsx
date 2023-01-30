@@ -5,7 +5,7 @@ export default function Projects(props) {
     <>
     <div className="select-none md:pt-7 md:mb-9 mb-7  md:mx-12 mx-3 mt-8 dark:bg-[#121212]">
       {/* Project Name  */}
-      <span className="text-2xl p-1 md:my-1 px-2 sm:px-1 md:px-5  md:text-4xl rounded-md font-rajdhani select-none border bg-orange-300 dark:bg-slate-900 dark:text-slate-200 md:tracking-wide">
+      <span className="text-2xl p-1 md:my-1 px-2 sm:px-1 md:px-5  md:text-4xl rounded-lg font-rajdhani select-none border border-orange-400 border-x-4 dark:border-slate-700 bg-orange-300 dark:bg-gray-900 dark:text-slate-200 md:tracking-wide">
         {props.Data.ProjectName}
       </span>
 
