@@ -16,6 +16,8 @@ import {
 
 function App() {
   const [darkmode, setDarkmode] = useState(false);
+  // const [activepage, setActivepage] = useState(Home);
+
   return (
     <BrowserRouter>
       <nav
