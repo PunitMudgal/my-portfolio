@@ -34,7 +34,21 @@ const ProjectData = [
         Description: 'This is a working tik tak toe game with rules and dark mode. You can play it for time pass and fun. The rules of this game are given in about secrion.',
         SourceCode: 'https://github.com/PunitMudgal/tik-tak-toe',
         VisitPro: 'https://tik-tak-toe-114.netlify.app'
-    }
+    },
+    {
+        projectNo: 6,
+        ProjectName: 'Profile Card',
+        Description: 'This is a working tik tak toe game with rules and dark mode. You can play it for time pass and fun. The rules of this game are given in about secrion.',
+        SourceCode: 'https://github.com/PunitMudgal/tik-tak-toe',
+        VisitPro: 'https://tik-tak-toe-114.netlify.app'
+    },
+    {
+        projectNo: 7,
+        ProjectName: 'Profile Card',
+        Description: 'This is a working tik tak toe game with rules and dark mode. You can play it for time pass and fun. The rules of this game are given in about secrion.',
+        SourceCode: 'https://github.com/PunitMudgal/profile-card02',
+        VisitPro: 'https://profile-cards02.netlify.app'
+    },
 ]
 
 export default ProjectData;
