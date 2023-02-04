@@ -53,12 +53,7 @@ export default function Home(props) {
             About Me
           </h3>
           <p className="indent-3 font-josefin">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
-            debitis facere nisi, odio repellendus libero impedit rerum cumque
-            dicta recusandae veritatis adipisci aliquam, dolor doloribus autem.
-            Saepe corrupti nam beatae laborum dolorum ut aspernatur fuga
-            obcaecati itaque atque. Molestiae quam sapiente fugiat, hic totam
-            consectetur labore adipisci placeat in a.
+            My name is Punit Sharma, i am a student, currently pursuing bachelor's degree from Gurugram University in Computer Science. I am currently learning Javascript React. This portfolio shows the projects i have made till now with source code. You can connect with me on Instagram, Twitter, Github by clicking the links given below in footer.
           </p>
         </div>
 
@@ -71,7 +66,7 @@ export default function Home(props) {
           </h3>
           <p className="max-w-lg tracking-wider mb-3 md:mb-6 capitalize">
             I have made some awesome React projects, You can check
-            them out in my github account and also can check them live by clicking below button.
+            them out in my github account and also can check them live by clicking button below.
           </p>
 
           <Link to="/project" className="bg-[#FCB424] dark:text-black hover:bg-orange-300/70  p-2 px-5 rounded-md shadow-sm hover:shadow-md ">
