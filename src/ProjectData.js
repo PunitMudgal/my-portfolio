@@ -2,42 +2,42 @@
 const ProjectData = [
     {
         projectNo: 1,
+        ProjectName: 'BMI Calculator',
+        Description: 'This is a Body Mass Index (BMI) app which can tell you whether you are underweight, normal, overweight or obese. It takes your height and weight in input and calcualte your body mass index. BMI shows your physical health condition.',
+        SourceCode: 'https://github.com/PunitMudgal/BMI_calculator',
+        VisitPro: 'https://bmicalculator-114.netlify.app/'
+    },
+    {
+        projectNo: 2,
         ProjectName: 'Click the box',
         Description: 'This is simple, By clicking box you can change their color from white to black and vice versa.',
         SourceCode: 'https://github.com/PunitMudgal/click-the-box',
         VisitPro: 'https://zdi6zd.csb.app/'
     },
     {
-        projectNo: 2,
+        projectNo: 3,
         ProjectName: 'Four Wonders Of The World',
         Description: 'This project shows four wonders in the world with working dark mode effect.',
         SourceCode: '',
         VisitPro: 'https://fourwonders.netlify.app'
     },
     {
-        projectNo: 3,
+        projectNo: 4,
         ProjectName: 'Keep Notes',
         Description: 'Keep Notes is an app in which you can save keep your daily notes with description and can delete them too.',
         SourceCode: '',
         VisitPro: 'https://keep-notes-punitmudgal.netlify.app'
     },
     {
-        projectNo: 4,
+        projectNo: 5,
         ProjectName: 'Text Format',
         Description: 'In this app you can copy, paste your text, know the word count, bold it, Remove the Extra spaces, etc.',
         SourceCode: 'https://github.com/PunitMudgal/textutils',
         VisitPro: 'https://textformatter114.netlify.app'
     },
     {
-        projectNo: 5,
-        ProjectName: 'Tik Tak Toe',
-        Description: 'This is a working tik tak toe game with rules and dark mode. You can play it for time pass and fun. The rules of this game are given in about secrion.',
-        SourceCode: 'https://github.com/PunitMudgal/tik-tak-toe',
-        VisitPro: 'https://tik-tak-toe-114.netlify.app'
-    },
-    {
         projectNo: 6,
-        ProjectName: 'Profile Card',
+        ProjectName: 'Tik Tak Toe',
         Description: 'This is a working tik tak toe game with rules and dark mode. You can play it for time pass and fun. The rules of this game are given in about secrion.',
         SourceCode: 'https://github.com/PunitMudgal/tik-tak-toe',
         VisitPro: 'https://tik-tak-toe-114.netlify.app'
@@ -46,9 +46,17 @@ const ProjectData = [
         projectNo: 7,
         ProjectName: 'Profile Card',
         Description: 'This is a working tik tak toe game with rules and dark mode. You can play it for time pass and fun. The rules of this game are given in about secrion.',
+        SourceCode: 'https://github.com/PunitMudgal/tik-tak-toe',
+        VisitPro: 'https://tik-tak-toe-114.netlify.app'
+    },
+    {
+        projectNo: 8,
+        ProjectName: 'Profile Card',
+        Description: 'This is a working tik tak toe game with rules and dark mode. You can play it for time pass and fun. The rules of this game are given in about secrion.',
         SourceCode: 'https://github.com/PunitMudgal/profile-card02',
         VisitPro: 'https://profile-cards02.netlify.app'
     },
+ 
 ]
 
 export default ProjectData;
