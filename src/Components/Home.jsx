@@ -70,9 +70,8 @@ export default function Home(props) {
             Projects
           </h3>
           <p className="max-w-lg tracking-wider mb-3 md:mb-6 capitalize">
-            I have made some awesome React projects for beginners, You can check
-            them out in my github account and can also see live hosted on
-            netlify.
+            I have made some awesome React projects, You can check
+            them out in my github account and also can check them live by clicking below button.
           </p>
 
           <Link to="/project" className="bg-[#FCB424] dark:text-black hover:bg-orange-300/70  p-2 px-5 rounded-md shadow-sm hover:shadow-md ">
