@@ -56,6 +56,13 @@ const ProjectData = [
         SourceCode: 'https://github.com/PunitMudgal/profile-card02',
         VisitPro: 'https://profile-cards02.netlify.app'
     },
+    {
+        projectNo: 9,
+        ProjectName: 'Dothraki Translator',
+        Description: 'Dothraki is a language used in the famous tv show Game of Thrones. This language is specially made for this show. Now this is official language available to learn for everyone. This app translates the english language into Dothraki language, whatever you will type on the textarea will be translated to dothraki language after clicking the translate button.',
+        SourceCode: 'https://github.com/PunitMudgal/dothraki-translator_js',
+        VisitPro: 'dothraki-translator-js.netlify.app'
+    },
  
 ]
 
