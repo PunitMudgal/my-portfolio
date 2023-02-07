@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import "./Styles.css";
 
 export default function FullProjectPage(props) {
+
   return (
     <div className="dark:bg-[#121212] p-1 flex justify-center flex-col md:justify-end md:flex md:flex-col text-center md:p-5">
  

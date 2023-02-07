@@ -10,7 +10,8 @@ export default function Navbar(props) {
   return (
     <section className="py-10 dark:bg-[#121212] w-full px-10 md:px-16">
       <nav className="flex justify-between items-center">
-        <Link
+        <Link 
+        onClick={() => document.title = "Home | PunitSharma"}
           to="/"
           className="text-xl md:text-2xl font-mono font-semibold text-[#FCB424]"
         >
@@ -18,7 +19,8 @@ export default function Navbar(props) {
         </Link>
         <ul className="flex items-center gap-3 dark:text-cyan-300 md:gap-10 lg:gap-20 text-slate-700 md:text-lg md:tracking-wider">
           <li>
-            <NavLink
+            <NavLink 
+            onClick={() => document.title = "Home | PunitSharma"}
               className="font-light dark:hover:text-slate-50  hover:text-gray-900  hover:underline-offset-8 hover:underline decoration-[#FCB424]"
               to="/"
             >
@@ -26,7 +28,8 @@ export default function Navbar(props) {
             </NavLink>
           </li>
           <li>
-            <NavLink
+            <NavLink 
+             onClick={() => document.title = "Project | PunitSharma"}
               className="font-light dark:hover:text-slate-50  hover:text-gray-900 hover:underline-offset-8 hover:underline decoration-[#FCB424]"
               to="/project"
             >
@@ -34,7 +37,8 @@ export default function Navbar(props) {
             </NavLink>
           </li>
           <li>
-            <NavLink
+            <NavLink 
+             onClick={() => document.title = "Blog | PunitSharma"}
               className=" font-light dark:hover:text-slate-50  hover:text-gray-900 hover:underline-offset-8 hover:underline decoration-[#FCB424]"
               to="/blog"
             >
