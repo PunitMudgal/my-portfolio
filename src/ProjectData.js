@@ -63,6 +63,13 @@ const ProjectData = [
         SourceCode: 'https://github.com/PunitMudgal/dothraki-translator_js',
         VisitPro: 'dothraki-translator-js.netlify.app'
     },
+    {
+        projectNo: 10,
+        ProjectName: 'Valyrian Translator',
+        Description: 'Valyrian is a language used in the famous tv show Game of Thrones. This language is specially made for this show. Now this is official language available to learn for everyone. This app translates the english language into Valyrian language, whatever you will type on the textarea will be translated to dothraki language after clicking the translate button.',
+        SourceCode: 'https://github.com/PunitMudgal/valyrian-translator-react',
+        VisitPro: 'https://valyrian-translator-react.netlify.app/'
+    },
  
 ]
 
