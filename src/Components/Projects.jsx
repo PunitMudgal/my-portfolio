@@ -26,6 +26,9 @@ export default function Projects(props) {
         {/* button 2 */}
         <a
          target='_blank'
+        //  style={props.Data.SourceCode=='' ? {pointerEvents: "none", color:"#808B96"}: {}}
+        style={props.Data.SourceCode=='' ? {pointerEvents: "none", color:"#808B96"}:{}}
+
           href={props.Data.SourceCode}
           className="md:p-2 p-1 dark:text-slate-200 text-bold dark:bg-transparent text-black m-2 bg-transparent  rounded-md border border-[#FCB424] hover:bg-orange-500 dark:hover:bg-orange-500 font-semibold "
         >
