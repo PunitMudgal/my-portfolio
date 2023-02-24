@@ -42,29 +42,23 @@ const ProjectData = [
         SourceCode: 'https://github.com/PunitMudgal/tik-tak-toe',
         VisitPro: 'https://tik-tak-toe-114.netlify.app'
     },
+    
     {
         projectNo: 7,
         ProjectName: 'Profile Card',
-        Description: 'This is a working tik tak toe game with rules and dark mode. You can play it for time pass and fun. The rules of this game are given in about secrion.',
-        SourceCode: 'https://github.com/PunitMudgal/tik-tak-toe',
-        VisitPro: 'https://tik-tak-toe-114.netlify.app'
-    },
-    {
-        projectNo: 8,
-        ProjectName: 'Profile Card',
-        Description: 'This is a working tik tak toe game with rules and dark mode. You can play it for time pass and fun. The rules of this game are given in about secrion.',
+        Description: 'This is just a demp website of profile cards with some random information in them.',
         SourceCode: 'https://github.com/PunitMudgal/profile-card02',
         VisitPro: 'https://profile-cards02.netlify.app'
     },
     {
-        projectNo: 9,
+        projectNo: 8,
         ProjectName: 'Dothraki Translator',
         Description: 'Dothraki is a language used in the famous tv show Game of Thrones. This language is specially made for this show. Now this is official language available to learn for everyone. This app translates the english language into Dothraki language, whatever you will type on the textarea will be translated to dothraki language after clicking the translate button.',
         SourceCode: 'https://github.com/PunitMudgal/dothraki-translator_js',
         VisitPro: 'dothraki-translator-js.netlify.app'
     },
     {
-        projectNo: 10,
+        projectNo: 9,
         ProjectName: 'Valyrian Translator',
         Description: 'Valyrian is a language used in the famous tv show Game of Thrones. This language is specially made for this show. Now this is official language available to learn for everyone. This app translates the english language into Valyrian language, whatever you will type on the textarea will be translated to dothraki language after clicking the translate button.',
         SourceCode: 'https://github.com/PunitMudgal/valyrian-translator-react',
